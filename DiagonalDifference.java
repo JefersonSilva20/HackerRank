@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class App {
+public class DiagonalDifference {
     public static int diagonalDifference(List<List<Integer>> arr) {
         int diagonalResult1 = 0;
         int diagonalResult2 = 0;

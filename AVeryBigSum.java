@@ -1,4 +1,4 @@
-public class App {
+public class AVeryBigSum {
 
     // Complete the aVeryBigSum function below.
     static long aVeryBigSum(long[] ar) {

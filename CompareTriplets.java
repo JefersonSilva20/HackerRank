@@ -1,9 +1,8 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 
-public class App {
+public class CompareTriplets {
 
     // Complete the compareTriplets function below.
     static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
@@ -20,8 +19,7 @@ public class App {
     }
 
     public static void main(String[] args) throws Exception {
-        Integer[] a = new Integer[]{1,2,3};
-        List<Integer> resulta = Arrays.asList(new Integer[] { 5,6,7 });
+        List<Integer> resulta = Arrays.asList(new Integer[] { 5, 6, 7 });
         List<Integer> resultb = Arrays.asList(new Integer[] { 3,6,10 });
         for (Integer integer : compareTriplets(resulta, resultb)) {
             System.out.println(integer);

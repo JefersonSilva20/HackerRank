@@ -1,4 +1,4 @@
-public class App {
+public class PlusMinus {
 
     // Complete the plusMinus function below.
     static void plusMinus(int[] arr) {
