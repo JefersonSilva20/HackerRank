@@ -1,3 +1,5 @@
+package simplearraysum;
+
 import java.io.IOException;
 
 public class SimpleArraySum {

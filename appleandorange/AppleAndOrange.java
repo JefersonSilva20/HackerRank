@@ -10,14 +10,6 @@ public class AppleAndOrange {
 
     }
 
-    /*
-     * static int countFruits(int[] fruitPositionsTree, int samsHouseStarting, int
-     * samHouseEnding) { int countFruit = 0; for (int i = 0; i <
-     * fruitPositionsTree.length; i++) { if (fruitPositionsTree[i] >=
-     * samsHouseStarting && fruitPositionsTree[i] <= samHouseEnding) { countFruit++;
-     * } } return countFruit; }
-     */
-
     static int calDistances(int[] fruitsPositions, int localizationTree, int samsHouseStarting, int samHouseEnding) {
         int fruitPositionsTree = 0;
         int countFruit = 0;
@@ -26,7 +18,6 @@ public class AppleAndOrange {
             if (fruitPositionsTree >= samsHouseStarting && fruitPositionsTree <= samHouseEnding) {
                 countFruit++;
             }
-
         }
         return countFruit;
     }

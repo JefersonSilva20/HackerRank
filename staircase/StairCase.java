@@ -1,3 +1,5 @@
+package staircase;
+
 public class StairCase {
 
     static void staircase(int n) {

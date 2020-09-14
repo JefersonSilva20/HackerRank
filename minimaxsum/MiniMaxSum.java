@@ -1,3 +1,5 @@
+package minimaxsum;
+
 public class MiniMaxSum {
 
     // Complete the miniMaxSum function below.
