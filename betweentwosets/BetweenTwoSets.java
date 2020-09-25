@@ -59,7 +59,7 @@ public class BetweenTwoSets {
     }
 
     public static void main(String[] args) {
-        int result = getTotalX(Arrays.asList(new Integer[] { 2, 4 }), Arrays.asList(new Integer[] { 16, 32, 96 }));
+        int result = getTotalX(Arrays.asList( 2, 4 ), Arrays.asList( 16, 32, 96 ));
         System.out.println(result);
     }
 
