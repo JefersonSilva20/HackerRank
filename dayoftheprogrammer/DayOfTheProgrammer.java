@@ -1,3 +1,5 @@
+package dayoftheprogrammer;
+
 public class DayOfTheProgrammer {
 
     // Complete the dayOfProgrammer function below.
